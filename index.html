@@ -1,13 +1,88 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
+</head>
+
+<body>
+    <div class="body-container">
+        <header>
+            <section class="header-content">
+                <span class="logo">devfinder</span>
+                <span class="theme-switcher">
+                    <span class="theme-switcher__text">light</span>
+                    <span class="theme-switcher__icon">🌙</span>
+                </span>
+            </section>
+            <section class="search-bar">
+                <label for="search">
+                    <svg aria-hidden="true" height="26" viewBox="0 0 16 16" version="1.1" width="26"
+                        data-view-component="true" class="octicon octicon-search">
+                        <path
+                            d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z">
+                        </path>
+                    </svg>
+                </label>
+                <input type="text" id="search" placeholder="Search GitHub username..." />
+                <button>Search</button>
+            </section>
+        </header>
+        <main>
+            <section class="user-profile">
+                <div class="user-profile__avatar">
+                    <img src="/avatar.svg" alt="User Avatar" />
+                </div>
+                <div class="user-profile__info">
+                    <header>
+                        <div class="user-profile__info__name-container">
+                            <div>
+                                <h2 class="user-profile__info__name">John Doe</h2>
+                                <span class="user-profile__info__username">@johndoe</span>
+                            </div>
+                            <span class="user-profile__info__joined">Joined 1 year ago</span>
+                        </div>
+                        <p class="user-profile__info__bio">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                    </header>
+                    <div class="user-profile__info__stats">
+                        <div class="user-profile__info__stats__item">
+                            <span class="user-profile__info__stats__item__label">Repos</span>
+                            <span class="user-profile__info__stats__item__value">10</span>
+                        </div>
+                        <div class="user-profile__info__stats__item">
+                            <span class="user-profile__info__stats__item__label">Followers</span>
+                            <span class="user-profile__info__stats__item__value">10</span>
+                        </div>
+                        <div class="user-profile__info__stats__item">
+                            <span class="user-profile__info__stats__item__label">Following</span>
+                            <span class="user-profile__info__stats__item__value">10</span>
+                        </div>
+                    </div>
+                    <div class="user-profile__info__details">
+                        <div class="user-profile__info__details__item">
+                            <span class="user-profile__info__details__item__label">Location</span>
+                            <span class="user-profile__info__details__item__value">Nigeria</span>
+                        </div>
+                        <div class="user-profile__info__details__item">
+                            <span class="user-profile__info__details__item__label">Twitter</span>
+                            <span class="user-profile__info__details__item__value">@johndoe</span>
+                        </div>
+                        <div class="user-profile__info__details__item">
+                            <span class="user-profile__info__details__item__label">Country</span>
+                            <span class="user-profile__info__details__item__value">Nigeria</span>
+                        </div>
+                        <div class="user-profile__info__details__item">
+                            <span class="user-profile__info__details__item__label">Company</span>
+                            <span class="user-profile__info__details__item__value">Vite</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
     <script type="module" src="/main.js"></script>
-  </body>
+</body>
+
 </html>
