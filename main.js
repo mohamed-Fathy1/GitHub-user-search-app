@@ -17,8 +17,9 @@ document.addEventListener('DOMContentLoaded', () => {
             .then(data => {
                 document.getElementById('name').innerText = data.name
                 document.getElementById('handle').innerText = `@${data.login}`
-                document.getElementById('avatar').src = data.avatar_url
-                document.getElementById('bio').innerText = data.bio || 'This profile has no bio'
+                document.querySelectorAll('.avatar').forEach(avatar => avatar.src = data.avatar_url)
+
+                document.querySelectorAll('.bio').forEach(bio => bio.innerText = data.bio || 'This profile has no bio')
                 document.getElementById('followers').innerText = data.followers
                 document.getElementById('following').innerText = data.following
                 document.getElementById('repos').innerText = data.public_repos
