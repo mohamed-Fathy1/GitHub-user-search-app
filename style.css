@@ -233,6 +233,10 @@ main .user-profile {
     color: var(--color-gray);
 }
 
+.user-profile__info__bio:not(.dark-theme) {
+    text-shadow: 0px 0px 1px black;
+}
+
 .user-profile__info__stats {
     display: flex;
     gap: max(calc(3svw + 5px), 2em);
