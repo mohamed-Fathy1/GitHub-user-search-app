@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  <script type="module" crossorigin src="/assets/index-xgzpV0gx.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-GscdQRGl.css">
+</head>
+
+<body id="dark-theme">
+    <div class="body-container">
+        <header>
+            <section class="header-content">
+                <span class="logo">devfinder</span>
+                <span class="theme-switcher" id="theme-switcher">
+                    <span class="theme-switcher__text">light</span>
+                    <span class="theme-switcher__icon" >
+                        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16"
+                            data-view-component="true" class="octicon octicon-sun">
+                            <path
+                                d="M8 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8Zm0-1.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Zm5.657-8.157a.75.75 0 0 1 0 1.061l-1.061 1.06a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734l1.06-1.06a.75.75 0 0 1 1.06 0Zm-9.193 9.193a.75.75 0 0 1 0 1.06l-1.06 1.061a.75.75 0 1 1-1.061-1.06l1.06-1.061a.75.75 0 0 1 1.061 0ZM8 0a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0V.75A.75.75 0 0 1 8 0ZM3 8a.75.75 0 0 1-.75.75H.75a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 3 8Zm13 0a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 16 8Zm-8 5a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 8 13Zm3.536-1.464a.75.75 0 0 1 1.06 0l1.061 1.06a.75.75 0 0 1-1.06 1.061l-1.061-1.06a.75.75 0 0 1 0-1.061ZM2.343 2.343a.75.75 0 0 1 1.061 0l1.06 1.061a.751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018l-1.06-1.06a.75.75 0 0 1 0-1.06Z">
+                            </path>
+                        </svg>
+                    </span>
+                </span>
+            </section>
+            <section class="search-bar">
+                <label for="search">
+                    <svg aria-hidden="true" height="26" viewBox="0 0 16 16" version="1.1" width="26"
+                        data-view-component="true" class="octicon octicon-search">
+                        <path
+                            d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z">
+                        </path>
+                    </svg>
+                </label>
+                <input type="text" id="username" placeholder="Search GitHub username..." />
+                <button id="search">Search</button>
+            </section>
+        </header>
+        <main>
+            <section class="user-profile">
+                <div class="user-profile__avatar avatar1">
+                    <img class="avatar" src="/assets/github-mark-dy8VsXC1.png" width="100" height="100"
+                        alt="User Avatar" />
+                </div>
+                <div class="user-profile__info">
+                    <header>
+                        <div class="user-profile__avatar avatar2">
+                            <img class="avatar" src="/assets/github-mark-dy8VsXC1.png" width="100"
+                                height="100" alt="User Avatar" />
+                        </div>
+                        <div class="user-profile__info__name-container">
+                            <div>
+                                <h2 id="name" class="user-profile__info__name">John Doe</h2>
+                                <span id="handle" class="user-profile__info__username">@johndoe</span>
+                            </div>
+                            <span id="joined" class="user-profile__info__joined">Joined 1 year ago</span>
+                        </div>
+                        <p  class="user-profile__info__bio bio bio1">This profile has no bio</p>
+                    </header>
+                    <p id="bio" class="user-profile__info__bio bio bio2">This profile has no bio</p>
+                    <div class="user-profile__info__stats">
+                        <div class="user-profile__info__stats__item">
+                            <span class="user-profile__info__stats__item__label">Repos</span>
+                            <span id="repos" class="user-profile__info__stats__item__value">8</span>
+                        </div>
+                        <div class="user-profile__info__stats__item">
+                            <span class="user-profile__info__stats__item__label">Followers</span>
+                            <span id="followers" class="user-profile__info__stats__item__value">3938</span>
+                        </div>
+                        <div class="user-profile__info__stats__item">
+                            <span class="user-profile__info__stats__item__label">Following</span>
+                            <span id="following" class="user-profile__info__stats__item__value">9</span>
+                        </div>
+                    </div>
+                    <div class="user-profile__info__details">
+                        <div class="user-profile__info__details__item">
+                            <span class="user-profile__info__details__item__label"><svg class="octicon octicon-location"
+                                    viewBox="0 0 16 16" version="1.1" width="24" height="24" aria-hidden="true">
+                                    <path
+                                        d="m12.596 11.596-3.535 3.536a1.5 1.5 0 0 1-2.122 0l-3.535-3.536a6.5 6.5 0 1 1 9.192-9.193 6.5 6.5 0 0 1 0 9.193Zm-1.06-8.132v-.001a5 5 0 1 0-7.072 7.072L8 14.07l3.536-3.534a5 5 0 0 0 0-7.072ZM8 9a2 2 0 1 1-.001-3.999A2 2 0 0 1 8 9Z">
+                                    </path>
+                                </svg></span>
+                            <span id="location" class="user-profile__info__details__item__value">Nigeria</span>
+                        </div>
+                        <div class="user-profile__info__details__item">
+                            <span class="user-profile__info__details__item__label"><svg viewBox="0 0 24 24"
+                                    aria-hidden="true" class="logo" height="24" width="24" fill="currentColor">
+                                    <g>
+                                        <path
+                                            d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z">
+                                        </path>
+                                    </g>
+                                </svg></span>
+                            <span id="twitter_username" class="user-profile__info__details__item__value">@johndoe</span>
+                        </div>
+                        <div class="user-profile__info__details__item">
+                            <span class="user-profile__info__details__item__label"><svg aria-hidden="true" height="24"
+                                    viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true"
+                                    class="octicon octicon-link">
+                                    <path
+                                        d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">
+                                    </path>
+                                </svg></span>
+                            <span id="blog" class="user-profile__info__details__item__value">Nigeria</span>
+                        </div>
+                        <div class="user-profile__info__details__item">
+                            <span class="user-profile__info__details__item__label"><svg aria-hidden="true" height="24"
+                                    viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true"
+                                    class="octicon octicon-organization">
+                                    <path
+                                        d="M1.75 16A1.75 1.75 0 0 1 0 14.25V1.75C0 .784.784 0 1.75 0h8.5C11.216 0 12 .784 12 1.75v12.5c0 .085-.006.168-.018.25h2.268a.25.25 0 0 0 .25-.25V8.285a.25.25 0 0 0-.111-.208l-1.055-.703a.749.749 0 1 1 .832-1.248l1.055.703c.487.325.779.871.779 1.456v5.965A1.75 1.75 0 0 1 14.25 16h-3.5a.766.766 0 0 1-.197-.026c-.099.017-.2.026-.303.026h-3a.75.75 0 0 1-.75-.75V14h-1v1.25a.75.75 0 0 1-.75.75Zm-.25-1.75c0 .138.112.25.25.25H4v-1.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 .75.75v1.25h2.25a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25ZM3.75 6h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1 0-1.5ZM3 3.75A.75.75 0 0 1 3.75 3h.5a.75.75 0 0 1 0 1.5h-.5A.75.75 0 0 1 3 3.75Zm4 3A.75.75 0 0 1 7.75 6h.5a.75.75 0 0 1 0 1.5h-.5A.75.75 0 0 1 7 6.75ZM7.75 3h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1 0-1.5ZM3 9.75A.75.75 0 0 1 3.75 9h.5a.75.75 0 0 1 0 1.5h-.5A.75.75 0 0 1 3 9.75ZM7.75 9h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1 0-1.5Z">
+                                    </path>
+                                </svg></span>
+                            <span id="company" class="user-profile__info__details__item__value">Vite</span>
+                        </div>
+                    </div>
+                </span>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
